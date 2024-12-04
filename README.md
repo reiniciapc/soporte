@@ -33,6 +33,29 @@ El objetivo de este sistema es proporcionar una herramienta ágil y eficiente pa
 - **JavaScript** (principalmente para mejorar la interacción del usuario).
 
 ## Instalación y Configuración
-1. Clona este repositorio:
+1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/reiniciapc/soporte.git
+   git clone https://github.com/tu-usuario/mi-proyecto-ticket.git
+   ```
+2. **Importar la Base de Datos**:
+   - Importa la base de datos desde el archivo `sistema_tickets.sql` usando phpMyAdmin o cualquier herramienta de gestión de MySQL.
+   - Crea una nueva base de datos en tu servidor de MySQL y luego importa el archivo.
+3. **Configurar las Credenciales de la Base de Datos**:
+   - Abre el archivo `conexion.php` y ajusta las credenciales de conexión para que coincidan con tu entorno local.
+   ```php
+   $host = "localhost";  // Dirección del servidor de base de datos
+   $user = "tu_usuario"; // Usuario de la base de datos
+   $password = "tu_contraseña"; // Contraseña del usuario
+   $dbname = "nombre_de_la_base_de_datos"; // Nombre de la base de datos
+   ```
+4. **Ejecutar el Servidor Web Local**:
+   - Coloca el directorio del proyecto en la carpeta correspondiente a tu servidor web (por ejemplo, en **XAMPP** es `htdocs`).
+   - Inicia Apache desde el panel de control de tu servidor (ej., XAMPP, WAMP).
+   - Accede al proyecto desde tu navegador visitando `http://localhost/mi-proyecto-ticket` o la ruta que corresponda.
+
+## Contribuir
+Si deseas contribuir al proyecto, realiza un fork y crea una solicitud de incorporación (**Pull Request**) con las mejoras que consideres.
+
+## Licencia
+Aún no has especificado una licencia, pero puedes agregar una licencia como **MIT** o **GPL** según cómo desees compartir los derechos de uso del código.
+
