@@ -35,7 +35,7 @@ El objetivo de este sistema es proporcionar una herramienta ágil y eficiente pa
 ## Instalación y Configuración
 1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/mi-proyecto-ticket.git
+   git clone https://github.com/reiniciapc/soporte.git
    ```
 2. **Importar la Base de Datos**:
    - Importa la base de datos desde el archivo `sistema_tickets.sql` usando phpMyAdmin o cualquier herramienta de gestión de MySQL.
@@ -51,11 +51,11 @@ El objetivo de este sistema es proporcionar una herramienta ágil y eficiente pa
 4. **Ejecutar el Servidor Web Local**:
    - Coloca el directorio del proyecto en la carpeta correspondiente a tu servidor web (por ejemplo, en **XAMPP** es `htdocs`).
    - Inicia Apache desde el panel de control de tu servidor (ej., XAMPP, WAMP).
-   - Accede al proyecto desde tu navegador visitando `http://localhost/mi-proyecto-ticket` o la ruta que corresponda.
+   - Accede al proyecto desde tu navegador visitando https://github.com/reiniciapc/soporte.git o la ruta que corresponda.
 
 ## Contribuir
 Si deseas contribuir al proyecto, realiza un fork y crea una solicitud de incorporación (**Pull Request**) con las mejoras que consideres.
 
 ## Licencia
-Aún no has especificado una licencia, pero puedes agregar una licencia como **MIT** o **GPL** según cómo desees compartir los derechos de uso del código.
+Aún no has especificado una licencia
 
