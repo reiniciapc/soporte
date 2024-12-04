@@ -35,4 +35,4 @@ El objetivo de este sistema es proporcionar una herramienta ágil y eficiente pa
 ## Instalación y Configuración
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/mi-proyecto-ticket.git
+   git clone https://github.com/reiniciapc/soporte.git
